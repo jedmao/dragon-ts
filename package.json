@@ -1,0 +1,37 @@
+{
+  "name": "dragon-ts",
+  "version": "0.0.0",
+  "description": "Dragon is a BDD testing framework with type-aware language chains for TypeScript (or JavaScript) code.",
+  "main": "js/dragon.js",
+  "scripts": {
+    "test": "dragon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jedmao/dragon-ts.git"
+  },
+  "keywords": [
+    "test",
+    "dragon",
+    "tdd",
+    "bdd",
+    "framework",
+    "typescript"
+  ],
+  "author": "\"Jed Mao\" <jedmao@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jedmao/dragon-ts/issues"
+  },
+  "homepage": "https://github.com/jedmao/dragon-ts",
+  "devDependencies": {
+    "del": "^1.1.1",
+    "event-stream": "^3.3.0",
+    "gulp": "^3.8.11",
+    "gulp-istanbul": "^0.6.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-tslint": "^1.4.4",
+    "gulp-typescript": "^2.4.2",
+    "through2": "^0.6.3"
+  }
+}
